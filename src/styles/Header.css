@@ -1,0 +1,25 @@
+.normal-header {
+    padding: 10px 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dark-header {
+    padding: 10px 20px;
+    background-color: #111;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dark-header a {
+    color: #fff;
+}
+
+ul {
+    width: 30%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
