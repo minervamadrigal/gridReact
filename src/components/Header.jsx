@@ -6,10 +6,13 @@ import "../styles/Header.css"
 const Header = props => {
     const initialState = false;
     const [darkMode, setDarkMode] = useState(initialState);
-    const {titulo, item} = props;
+    
+
+    const {titulo, item, className, setText} = props;
 
     const handlerDarkMode = () =>{
         setDarkMode(!darkMode);
+        setText(darkMode ? "No Dark Mode" : "Dark Mode");
     };
 
     return (

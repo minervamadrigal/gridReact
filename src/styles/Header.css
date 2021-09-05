@@ -16,6 +16,10 @@
     color: #fff;
 }
 
+h2 {
+    text-align: center;
+}
+
 ul {
     width: 30%;
     list-style: none;
